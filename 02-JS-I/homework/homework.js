@@ -71,6 +71,9 @@ if (x==y){
   
 }
 
+
+
+
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
@@ -106,6 +109,7 @@ function mayorQueCincuenta(num) {
   }
 
 }
+
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
