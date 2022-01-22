@@ -57,7 +57,7 @@ function dePalabrasAFrase(palabras) {
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
 
-  var cadena = "";
+  /*var cadena = "";
   for (let i = 0; i < palabras.length; i++) {
     if (i === palabras.length - 1) {
       cadena = cadena + palabras[i];
@@ -66,7 +66,9 @@ function dePalabrasAFrase(palabras) {
     }
   }
 
-  return cadena;
+return cadena;
+*/
+  return palabras.join(" ");
 }
 
 function arrayContiene(array, elemento) {
@@ -74,7 +76,7 @@ function arrayContiene(array, elemento) {
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
 
-  var result = false;
+ /* var result = false;
 
   for (let i = 0; i < array.length; i++) {
     if (elemento === array[i]) {
@@ -83,6 +85,9 @@ function arrayContiene(array, elemento) {
   }
 
   return result;
+*/
+
+return array.includes(elemento);
 }
 
 function agregarNumeros(numeros) {
@@ -272,7 +277,7 @@ function breakStatement(numero) {
 
   var nuevo = [];
   var i = 0;
-  var n;
+
 
   nuevo[i] = numero + 2;
 
@@ -301,7 +306,6 @@ function continueStatement(numero) {
 
   var nuevo = [];
   var i = 0;
-  var n;
   var ns;
 
   nuevo[i] = numero + 2;
