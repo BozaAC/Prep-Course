@@ -8,6 +8,9 @@ function mayuscula(nombre) {
   return nombre[0].toUpperCase() +  nombre.slice(1);
 }
 
+
+
+
 function invocarCallback(cb) {
   // Invoca al callback `cb`
   //Tu código:
@@ -103,12 +106,18 @@ for (let i = 0; i < array.length; i++) {
 return nuevoArray;
 */
 
+
+/*
 var resultado = array.filter(function(palabra) {
  return palabra[0].toLowerCase()=== "a"; 
 });
 
 
+
 return resultado;
+*/
+
+return array.filter((e)=>e[0] === 'a');
 
 }
 
